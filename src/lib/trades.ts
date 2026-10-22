@@ -1,0 +1,17 @@
+export const TRADES = [
+  "Plumber",
+  "Electrician",
+  "Carpenter",
+  "Builder",
+  "Painter",
+  "Landscaper",
+  "Roofer",
+  "Tiler",
+  "Concreter",
+  "Air conditioning",
+  "Cleaner",
+  "Pest control",
+  "Fencing",
+  "Handyman",
+  "Other",
+];

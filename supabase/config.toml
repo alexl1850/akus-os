@@ -1,0 +1,25 @@
+# Supabase CLI config (local dev). Run `supabase start` then `supabase db reset`.
+project_id = "akus-os"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+major_version = 15
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[auth]
+site_url = "http://localhost:8080"
+additional_redirect_urls = ["http://localhost:8080/auth/callback"]
+enable_signup = false
+
+[auth.email]
+enable_signup = false
+enable_confirmations = false
+
+[functions.create-sub-account]
+verify_jwt = true
