@@ -19,7 +19,7 @@ This is the foundation: multi-tenant database with row-level security, login, pl
    - Turn **off** "Allow new users to sign up" (people only get in by invite).
    - Site URL: your app URL. Add `<app url>/auth/callback` to redirect URLs.
 5. Copy `.env.example` to `.env` and fill in the project URL and anon key.
-6. `pnpm install && pnpm dev` (http://localhost:8080).
+6. `pnpm install && pnpm dev` (http://localhost:8080). Use pnpm: `npm install` trips over a peer-version conflict.
 
 ### Demo logins (after seeding)
 
